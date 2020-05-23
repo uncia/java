@@ -2,11 +2,15 @@
 
 ## wget:
 ```
-wget -N --no-check-certificate https://github.com/uncia/java/releases/download/jre-8u251/jre-8u251-linux-x64.rpm && rpm -ivh jre-*-linux-*.rpm
+wget -N --no-check-certificate https://github.com/uncia/java/releases/download/jre-8u251/jre-8u251-linux-x64.rpm && rpm -ivh jre-*-linux-*.rpm --force --nodeps
 ```
 
 ```
-wget -N --no-check-certificate https://github.com/uncia/java/releases/download/jdk-8u251/jdk-8u251-linux-x64.rpm && rpm -ivh jdk-*-linux-*.rpm
+wget -N --no-check-certificate https://github.com/uncia/java/releases/download/jdk-8u251/jdk-8u251-linux-x64.rpm && rpm -ivh jdk-*-linux-*.rpm --force --nodeps
+```
+###强制卸载
+```
+rpm -e --allmatches --nodeps openssl*
 ```
 
 修改profile文件
