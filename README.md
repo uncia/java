@@ -2,11 +2,11 @@
 
 ## wget:
 ```
-bash <(wget --no-check-certificate -qO- 'https://github.com/uncia/java/releases/download/jre-8u251/jre-8u251-linux-x64.rpm') & rpm -ivh jre-*-linux-*.rpm
+wget -N --no-check-certificate https://github.com/uncia/java/releases/download/jre-8u251/jre-8u251-linux-x64.rpm && rpm -ivh jre-*-linux-*.rpm
 ```
 
 ```
-bash <(wget --no-check-certificate -qO- 'https://github.com/uncia/java/releases/download/jdk-8u251/jdk-8u251-linux-x64.rpm') & rpm -ivh jdk-*-linux-*.rpm
+wget -N --no-check-certificate https://github.com/uncia/java/releases/download/jdk-8u251/jdk-8u251-linux-x64.rpm && rpm -ivh jdk-*-linux-*.rpm
 ```
 
 修改profile文件
