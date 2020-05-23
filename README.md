@@ -1,8 +1,13 @@
 # java
 
 ## wget:
+```
 bash <(wget --no-check-certificate -qO- 'https://github.com/uncia/java/releases/download/jre-8u251/*') & rpm -ivh jdk-*-linux-*.rpm
+```
+
+```
 bash <(wget --no-check-certificate -qO- 'https://github.com/uncia/java/releases/download/jdk-8u251/*') & rpm -ivh jdk-*-linux-*.rpm
+```
 
 修改profile文件
 追加脚本如下：
