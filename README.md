@@ -24,6 +24,7 @@ export CLASSPATH=$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 
 ```
 source /etc/profile
+java -version
 ```
 
 jre:
