@@ -29,6 +29,8 @@ java -version
 
 jre:
 ```
+java-1.8.0-openjdk-jre-1.8.0.252-2.b09.redhat.windows.x86.zip
+java-1.8.0-openjdk-jre-1.8.0.252-2.b09.redhat.windows.x86_64.zip
 jre-8u251-linux-i586.rpm
 jre-8u251-linux-i586.tar.gz
 jre-8u251-linux-x64.rpm
@@ -42,6 +44,10 @@ jre-8u251-windows-x64.tar.gz
 ```
 jdk:
 ```
+java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86.msi
+java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64.msi
+java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86.zip
+java-1.8.0-openjdk-1.8.0.252-2.b09.redhat.windows.x86_64.zip
 jdk-8u251-linux-i586.rpm
 jdk-8u251-linux-i586.tar.gz
 jdk-8u251-linux-x64.rpm
